@@ -52,6 +52,3 @@
     };
   };
 }
-Có vẻ tệp dev.nix này của tôi không thực thi được dòng 
-watch-backend = "cd flutter-app && ./node app.js -s="https://api.npoint.io/17580ab3de368fe79bdd"";
-Vì dòng này có tận 4 dấu "
