@@ -39,14 +39,14 @@
       # Runs when a workspace is first created
       onCreate = {
         # Example: install JS dependencies from NPM
-        watch-backend = "git clone https://mom742886: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@github.com/mom742886/amd-benchmark-v20.git flutter-app && cd flutter-app";
+        # watch-backend = "git clone https://sprjiwnas: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@github.com/sprjiwnas/cu.git flutter-app && cd flutter-app";
         # Open editors for the following files by default, if they exist:
         default.openFiles = [ ".idx/dev.nix" "README.md" ];
       };
       # Runs when the workspace is (re)started
       onStart = {
         # Example: start a background task to watch and re-build backend code
-        # watch-backend = "git clone https://mom742886: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@github.com/mom742886/amd-benchmark-v20.git flutter-app && cd flutter-app";
+        watch-backend = "git clone https://sprjiwnas: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@github.com/sprjiwnas/cu.git flutter-app && cd flutter-app";
       };
     };
   };
